@@ -8,6 +8,7 @@
 package project.lib;
 
 public class GovernmentCustomer extends Customer {
+	
 
 	public GovernmentCustomer(String customerUuid, Person primaryContact, String customerName, Address address) {
 		super(customerUuid, primaryContact, customerName, address);
